@@ -6,7 +6,7 @@ import { PokemonService } from '../pokemon.service';
 @Component({
   selector: 'app-pokemon-form',
   templateUrl: './pokemon-form.component.html',
-  styles: [
+  styleUrls: [ './pokemon-form.component.css'
   ]
 })
 export class PokemonFormComponent implements OnInit {
@@ -49,7 +49,7 @@ export class PokemonFormComponent implements OnInit {
     if(this.pokemon.types.length > 2 && !this.hasType(type)){
       return false;
     }
-    
+
     return true;
   }
 
