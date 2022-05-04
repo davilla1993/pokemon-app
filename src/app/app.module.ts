@@ -10,7 +10,8 @@ import { PokemonModule } from './pokemon/pokemon.module';
 @NgModule({
   declarations: [
     AppComponent,  
-    PageNotFoundComponent],
+    PageNotFoundComponent
+  ],
     
   imports: [
     BrowserModule,
@@ -21,4 +22,5 @@ import { PokemonModule } from './pokemon/pokemon.module';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
