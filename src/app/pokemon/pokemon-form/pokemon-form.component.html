@@ -9,7 +9,7 @@
             <input type="text" class="form-control" id="name"
                     required
                     pattern="^[a-zA-Z0-9àéèç]{1,25}$"
-                   [(ngModel)]="pokemon.name" name="name"
+                   [(ngModel)]="pokemon.name" name="name" 
                    #name="ngModel">
     
             <div [hidden]="name.valid || name.pristine"
